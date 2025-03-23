@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg.crdownload");
+    background-size: cover;
+    text-align: center;
+}  
+h1{
+    color: crimson;
+    display: inline;
+    background-color: black;
+} 
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+ 
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.4);
+    font-size: 8vmin;
+    color: maroon;
+    background-color:rgb(191, 118, 118);
+}
+#reset{
+    color: #0855ff;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: crimson;
+    background-color: black;
+    font-weight: 800;
+    font-size: 8vmin;
+    display: inline;
+}
+.msg-container{
+    margin-top: 5px;
+    height: 25min;
+}
+.hide{
+    display: none;
+}
